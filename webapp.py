@@ -6,11 +6,11 @@ app = Flask(__name__)
 def render_main():
     return render_template('home.html')
 
-@app.route("/p1")
+@app.route("/test")
 def render_page1():
     return render_template('page1.html')
 
-@app.route("/p2")
+@app.route("/test2")
 def render_page2():
     return render_template('page2.html')
     
